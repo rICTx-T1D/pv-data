@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-02-12T18:27:14+0100",
+  "realtime": {
+    "FSG_DC_Power1": 0,
+    "FSG_DC_Power2": 0.18,
+    "FSG_SolarPlantPower": 0.18,
+    "FSG_DC_Voltage1": 54.17,
+    "FSG_DC_Voltage2": 20.54,
+    "FSG_DC_Current1": 0,
+    "FSG_DC_Current2": 0.01,
+    "FSG_BatteryStateOfCharge": 33.5,
+    "FSG_BatteryPower": 417.92,
+    "FSG_InverterPower": 382.47,
+    "FSG_GridPower": 0.9,
+    "FSG_LoadPower": -383.64,
+    "gBewoelkung": 91.67,
+    "gAussenTemperatur": 9.13,
+    "CalculatedOutsideIlluminance": 0,
+    "FSG_Day_Energy": 5.1,
+    "tasmotaSMR_VerbrauchTag": 6.1,
+    "tasmotaSMR_EinspeisungTag": 0,
+    "ShadeCorrectionFactor": 0
+  },
+  "history_1h_15min": {
+    "FSG_DC_Power1": [
+      {
+        "avg": 0,
+        "time": "2026-02-12T17:30:00+0100"
+      },
+      {
+        "avg": 0,
+        "time": "2026-02-12T17:45:00+0100"
+      },
+      {
+        "avg": 0,
+        "time": "2026-02-12T18:00:00+0100"
+      },
+      {
+        "avg": 0,
+        "time": "2026-02-12T18:15:00+0100"
+      }
+    ],
+    "FSG_DC_Power2": [
+      {
+        "avg": 0.63,
+        "time": "2026-02-12T17:30:00+0100"
+      },
+      {
+        "avg": 0.63,
+        "time": "2026-02-12T17:45:00+0100"
+      },
+      {
+        "avg": 0.63,
+        "time": "2026-02-12T18:00:00+0100"
+      },
+      {
+        "avg": 0.63,
+        "time": "2026-02-12T18:15:00+0100"
+      }
+    ],
+    "FSG_BatteryStateOfCharge": [
+      {
+        "avg": 33.6,
+        "time": "2026-02-12T17:30:00+0100"
+      },
+      {
+        "avg": 33.6,
+        "time": "2026-02-12T17:45:00+0100"
+      },
+      {
+        "avg": 33.6,
+        "time": "2026-02-12T18:00:00+0100"
+      },
+      {
+        "avg": 33.6,
+        "time": "2026-02-12T18:15:00+0100"
+      }
+    ]
+  },
+  "units": {
+    "FSG_DC_Power1": "W",
+    "FSG_DC_Power2": "W",
+    "FSG_SolarPlantPower": "W",
+    "FSG_DC_Voltage1": "V",
+    "FSG_DC_Voltage2": "V",
+    "FSG_DC_Current1": "A",
+    "FSG_DC_Current2": "A",
+    "FSG_BatteryStateOfCharge": "%",
+    "FSG_BatteryPower": "W",
+    "FSG_InverterPower": "W",
+    "FSG_GridPower": "W",
+    "FSG_LoadPower": "W",
+    "gBewoelkung": "%",
+    "gAussenTemperatur": "°C",
+    "CalculatedOutsideIlluminance": "lx",
+    "FSG_Day_Energy": "kWh",
+    "tasmotaSMR_VerbrauchTag": "kWh",
+    "tasmotaSMR_EinspeisungTag": "kWh",
+    "ShadeCorrectionFactor": "factor"
+  }
+}
